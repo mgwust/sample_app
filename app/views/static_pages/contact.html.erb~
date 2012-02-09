@@ -1,0 +1,5 @@
+<%provide(:title, 'Contact')%>
+<h1><%= yield(:title) %></h1>
+    <p>
+      Please contact us at whatever email address you wish to choose.
+    </p>
