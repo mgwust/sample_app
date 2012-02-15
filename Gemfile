@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
-gem 'bcrypt-ruby', '3.0.1'
+gem 'bcrypt-ruby'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -21,6 +21,7 @@ gem 'jquery-rails', '2.0.0'
 
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'factory_girl_rails', '1.4.0'
 end
 
 group :production do
